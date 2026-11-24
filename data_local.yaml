@@ -1,0 +1,16 @@
+train: train/images
+val: valid/images
+test: test/images
+nc: 4
+names:
+- Paper
+- Rock
+- Scissors
+- heart
+roboflow:
+  workspace: newworkspacebw
+  project: rock-paper-scissors-sxsw-m36ee
+  version: 1
+  license: Private
+  url: https://universe.roboflow.com/newworkspacebw/rock-paper-scissors-sxsw-m36ee/dataset/1
+path: G:\quantTrading\Gesture_demo_yolo8\rps_with_heart
